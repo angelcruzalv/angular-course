@@ -30,7 +30,7 @@
 interface CharacMine{
     name: string,
     hp: number,
-    showHP: () => void; //function as a argument
+    showHP: () => void; //function as a 
 }
 //new healing function calls the character
 function healing(character: CharacMine, healX: number): void{
