@@ -62,8 +62,9 @@ console.log('Array ', a2)
 console.log('Array ', a3)
 console.log('Array ', a4)
 
-//if just want One Position leave blank spaces until position
-const [,,,a] = MyArray; 
-console.log('array', a);
+//if just want One Position leave coma , spaces until position
+//const [,,,a] = MyArray; 
+//console.log('array', a); 
+//output: Position3
 
 
