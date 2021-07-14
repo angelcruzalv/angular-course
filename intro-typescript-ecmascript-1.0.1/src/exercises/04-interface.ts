@@ -8,7 +8,8 @@
 interface SuperHero{
     name: string,
     age: number,
-    // address: {
+    //-- this way works the same but not recommended --
+    // address: {  
     //     st: string,
     //     city: string,
     //     country: string
