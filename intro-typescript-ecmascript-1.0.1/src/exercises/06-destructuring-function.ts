@@ -5,7 +5,7 @@
     ===== TypeScript code =====
 */
 
-interface Product {
+ export interface Product {
     description: string,
     price: number
 }
@@ -31,7 +31,8 @@ const computer: Product = {
     
 // }
 //destructuring function
-function taxes (product:Product[]): [number, number]{
+//export original function taxes
+export function taxes (product:Product[]): [number, number]{
 
     let total = 0;
     product.forEach(({price}) => {
